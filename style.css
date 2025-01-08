@@ -124,6 +124,56 @@ body {
     padding-right: 16px;
 }
 
+/* Section 5: CTA */
+
+.cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.cta-content{
+    display: flex; /* Enables Flexbox */
+    justify-content: space-between; /* Space between text and button */
+    align-items: center; /* Vertically center-align items */
+    background-color: #2979ff; /* Blue background */
+    padding: 16px 32px; /* Add space inside the section */
+    border-radius: 8px; /* Rounded corners */
+    color: white; /* White text color */
+}
+
+.cta-text {
+    max-width: 70%; /* Prevent content from taking up too much space */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+
+}
+
+.cta h3{   
+    margin: 8px 0 0px; /* Add space below the heading */
+    font-size: 24px; /* Adjust font size */
+    font-weight: bold; /* Make the heading bold */
+}
+
+.cta p{
+    margin: 0;
+}
+
+.cta a{
+    background-color: #3882F6;
+    border: 3px solid white;
+    padding: 8px 16px;
+    border-radius: 10px;
+    display: flex;
+    align-self: center;
+}
+
+   
 /* Universal */
 
 p,a{
