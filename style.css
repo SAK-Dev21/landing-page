@@ -165,7 +165,7 @@ body {
 }
 
 .cta a{
-    background-color: #3882F6;
+    background-color: transparent;
     border: 3px solid white;
     padding: 8px 16px;
     border-radius: 10px;
@@ -173,6 +173,15 @@ body {
     align-self: center;
 }
 
+/* Section 6: Footer */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 40px;
+}
    
 /* Universal */
 
