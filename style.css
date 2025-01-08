@@ -60,6 +60,10 @@ body {
 
 .carousel{
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .carousel h1{
@@ -89,6 +93,37 @@ body {
     color: #1F2937;
     text-align: center;
 }
+
+/* Section 4: Testimony */
+
+.testimony{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.testimony h3{
+    flex-wrap: wrap;    
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    text-align: center;
+}
+
+.testimony p {
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    padding-right: 16px;
+}
+
 /* Universal */
 
 p,a{
@@ -110,12 +145,14 @@ ul {
     background-color: #1F2937;
 }
 
-button {
+.hero-content a {
     background-color: #3882F6;
     border: 2px solid #3882F6;
     color: #E5E7EB;
     padding: 8px 16px;
     border-radius: 10px;
+    display: flex;
+    align-self: flex-start;
 }
 
 img {
