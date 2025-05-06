@@ -1,6 +1,4 @@
-```
 Link: https://sak-dev21.github.io/landing-page/
-```
 
 ### Reflection: Lessons Learned and Areas for Improvement
 
